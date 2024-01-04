@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Maze-game/static/css/main.d6a9010e.css",
+    "main.js": "/Maze-game/static/js/main.2d978052.js",
+    "static/media/birdMusic.mp3": "/Maze-game/static/media/birdMusic.a0e180184cc4da578494.mp3",
+    "static/media/bgMusic.mp3": "/Maze-game/static/media/bgMusic.fa2ec966b9d60a0c0536.mp3",
+    "static/media/bird.gif": "/Maze-game/static/media/bird.ee8139642934429d124b.gif",
+    "static/media/cursor.png": "/Maze-game/static/media/cursor.5e2d28df8fd2fba236da.png",
+    "index.html": "/Maze-game/index.html",
+    "main.d6a9010e.css.map": "/Maze-game/static/css/main.d6a9010e.css.map",
+    "main.2d978052.js.map": "/Maze-game/static/js/main.2d978052.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6a9010e.css",
+    "static/js/main.2d978052.js"
+  ]
+}

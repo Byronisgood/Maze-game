@@ -1,0 +1,157 @@
+/* AboutUs.css */
+
+body {
+  background: linear-gradient(to left, #0e0e0c, #070700);
+  cursor: url('./images/cursor.png'), auto; /* Replace 'path-to-your-custom-cursor.png' with the path to your cursor image */
+}
+
+.about-us-container {
+  text-align: center;
+  max-height: 10%;
+  max-width: 80%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Chakra Petch', Arial, sans-serif;
+  background-color: #070700;
+  border-radius: 25px;
+  border: 1px solid #11c28a5d;
+  background: rgba(34, 183, 143, 0.048);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease, box-shadow 0.4s ease;
+}
+
+.about-us-container:hover {
+  transform: scale(1.00);
+  cursor: pointer;
+  border-color: #11c28a;
+  box-shadow: 0 0 30px #10c98e;
+}
+
+.about-us-content p {
+  color: #e9e9e9;
+  text-align: center;
+}
+
+.about-us-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+.about-us-container:hover::before {
+  border-color: #11c28a;
+}
+
+.about-us-header {
+  color: #f7eeee;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-us-content {
+  margin-top: 20px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.developer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.developer-list li {
+  margin-bottom: 20px;
+  color: #f1e8e8;
+}
+
+.developer-list li {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #eeecec;
+}
+
+.developer-list strong {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #eeecec;
+}
+
+
+/* Glitch-style button */
+.glitch-button-container {
+  margin-top: 30px;
+}
+
+.glitch-text {
+  color: #eaf0ee;
+}
+
+
+
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #070700;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1b7559bb;
+  border-radius: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e9a6f;
+}
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .about-us-container {
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about-us-header {
+    font-size: 1.5em;
+  }
+
+  .about-us-content {
+    font-size: 0.9em;
+  }
+
+  .developer-list li {
+    margin-bottom: 5px;
+  }
+
+  .developer-list li strong {
+    font-size: 12px;
+  }
+  
+  /* Additional Media Query for smaller screens */
+  .glitch-button-container {
+    margin-top: 20px;
+  }
+
+  .btn-glitch-fill {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
