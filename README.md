@@ -66,3 +66,6 @@ Stay tuned for updates as we continue to refine and expand the Maze Game with ne
 
    ```bash
    npm start
+
+# Demo Live:
+https://byronisgood.github.io/Maze-game/
